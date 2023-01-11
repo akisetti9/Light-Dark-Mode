@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  background-size: cover;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whiteBox {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+.box {
+  font: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 640px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-radius: 16px;
+}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 320px;
+  }
+}
+.blackBox {
+  background-color: #000000;
+  color: #ffffff;
+}
+h1 {
+  margin: 0px;
+  margin-bottom: 36px;
+}
+.btn {
+  font: 'Roboto';
+  font-weight: 600;
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.whiteButton {
+  background-color: #ffffff;
+  color: #000000;
+}
+.blackButton {
+  background-color: #000000;
+  color: #ffffff;
+}
